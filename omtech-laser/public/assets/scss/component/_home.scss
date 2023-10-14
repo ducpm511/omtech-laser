@@ -1,0 +1,58 @@
+/*----------
+
+01. Home style
+
+----------*/
+
+@use "../abstract" as *;
+
+.heroBanner {
+  img {
+    width: 100%;
+  }
+}
+
+.topLaserEngraver {
+  padding: 80px 156px;
+  .engraverItem{
+    padding: 20px;
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+  }
+}
+.sectionToper{
+    display: grid;
+}
+.sectionHeading {
+  color: #1d1d1f;
+  font-family: SF Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sectionSubHeading {
+  color: #46464b;
+  font-family: SF Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.customerInspirationGallery{
+    padding: 80px 156px;
+    background-color: #1d1d1f;
+    .sectionHeading{
+        color: #ffffff;
+    }
+    .sectionSubHeading{
+        color: #ffffff;
+    }
+    .galleryCard{
+        img{
+            width: 99%;
+        }
+    }
+}

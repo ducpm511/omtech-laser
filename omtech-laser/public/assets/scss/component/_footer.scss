@@ -1,0 +1,60 @@
+/*----------
+
+03. footer style
+
+----------*/
+
+@use "../abstract" as *;
+
+.footer {
+  padding: 80px 156px;
+  display: flex;
+  // width: 1200px;
+  align-items: flex-start;
+  gap: 12px;
+  justify-content: space-between;
+  .footerTopLeft {
+    width: 50%;
+    span {
+      color: #1d1d1f;
+      font-family: SF Pro;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 590;
+      line-height: normal;
+    }
+    .subscribeInput {
+      width: 100%;
+      margin-top: 10px;
+      input {
+        padding: 8px 12px;
+        align-items: center;
+        flex: 1 0 0;
+        border-radius: 4px 0px 0px 4px;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+      }
+      button {
+        padding: 8px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 4px 4px 0px;
+        background: #0074df;
+        color: #ffffff;
+        border: none;
+      }
+    }
+  }
+  .footerTopRight {
+    width: 30%;
+    text-align: right;
+    span {
+      color: #46464b;
+      font-family: SF Pro;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
